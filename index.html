@@ -3,57 +3,73 @@
 
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="utf-8">
   <title>Legendart-me</title>
 </head>
 
 <body>
 
-  <header>
+  <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="navbar-brand" href="#">Legendart-me</div>
     </nav>
-
   </header>
 
-  <img src="img/image.jpg" class="img-fluid" alt="Responsive image">
-  <p class="lead">
-    Nous sommes 4 étudiants à HETIC en WEB de la promo P2020.
-  </p>
+  <section class="sectionBigPicture">
+    <img src="img/bigPicture.jpg" class="img-fluid" alt="Responsive image">
+  </section>
 
-  <div class="card-deck">
-    <div class="card">
-      <img class="card-img-top" src="img/alexandre.jpg" alt="Card image cap" style="width: 150px;border-radius:100px;">
-      <div class="card-body">
-        <p class="card-text">Je m'appelle Alexandre Martins, j'ai 18 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="img/dorian.jpg" alt="Card image cap" style="width: 150px;border-radius:100px;">
-      <div class="card-body">
-        <p class="card-text">Je m'appelle Dorian Taing, j'ai 18 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="img/vincent.jpg" alt="Card image cap" style="width: 150px;border-radius:100px;">
-      <div class="card-body">
-        <p class="card-text">Je m'appelle Vincent Pham, j'ai 25 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="img/kevin.jpg" alt="Card image cap" style="width: 150px;border-radius:100px;">
-      <div class="card-body">
-        <p class="card-text">Je m'appelle Kévin Özdemir, j'ai 18 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <hr>
-    <p class="align-text-bottom">© Company, Inc. 2017
-
+  <section class="sectionDescriptionGroupe">
+    <p class="lead">
+      Nous sommes 4 étudiants de la promo Web P2020 à HETIC.
     </p>
-  <img style="width: 200px" class="float-right" src="logo.jpg" alt="">
+  </section>
+
+  <section class="sectionPhoto">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/alexandre.jpg" alt="Card image cap" style="width: 150px;border-radius:100%;">
+          <div class="card-body">
+            <p class="card-text">Je m'appelle Alexandre Martins, j'ai 18 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/dorian.jpg" alt="Card image cap" style="width: 150px;border-radius:100%;">
+          <div class="card-body">
+            <p class="card-text">Je m'appelle Dorian Taing, j'ai 18 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/vincent.jpg" alt="Card image cap" style="width: 150px;border-radius:100%;">
+          <div class="card-body">
+            <p class="card-text">Je m'appelle Vincent Pham, j'ai 25 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/kevin.jpg" alt="Card image cap" style="width: 150px;border-radius:100%;">
+          <div class="card-body">
+            <p class="card-text">Je m'appelle Kévin Özdemir, j'ai 18 ans et j'étudie actuellement en Bachelor Web à HETIC.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sectionTechno">
+    <h3 class="technoTitle">
+      Compétences de l'équipe
+    </h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>PHP</li>
+    </ul>
+  </div>
+  <footer class="footer">
+    <p class="copyright">© Company, Inc. 2017</p>
+    <img class="logoHETIC" src="img/logoHETIC.png" alt="">
   </footer>
 </body>
 

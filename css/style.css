@@ -1,0 +1,82 @@
+body {
+  background-color: #eeeeee;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.sectionBigPicture {
+  margin-bottom: 30px;
+}
+
+.sectionDescriptionGroupe {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.sectionPhoto {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.card-deck {
+
+  width: 90%;
+display: flex;
+}
+
+.card {
+align-self: center;
+  padding: 20px 5px;
+  min-width: 180px;
+  max-width: 250px;
+}
+
+.card-deck {
+  justify-content: center;
+}
+
+.card-img-top {
+  max-width: 100%;
+}
+
+.sectionTechno {
+  -webkit-clip-path: polygon(0 0, 40% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 40% 0, 100% 100%, 0% 100%);
+  background: #999999;
+  margin-bottom: 30px;
+  padding: 5%;
+}
+
+.technoTitle {
+  margin-bottom: 40px;
+  max-width: 35%;
+}
+
+.footer {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  align-self: flex-end;
+}
+
+/*.logoHETIC {
+width: 200px;
+height:200px;
+}*/
+
+.card-img-top {
+  align-self: center;
+}
